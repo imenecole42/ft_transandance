@@ -1,0 +1,106 @@
+    /* Reinitialisation des styles */
+           * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container-custom {
+            margin-left: 25%;
+            background-color: rgba(110, 111, 116, 0.5); /* Fond semi-transparent */
+            padding: 20px;
+            border-radius: 10px;
+        
+          
+      }
+      .footer {
+        color: #5e5555; /* Couleur grise */
+        font-weight: bold;
+        font-size: 30px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        font-family: Arial, sans-serif;
+        }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: auto; /* Permet le défilement sur toute la page */
+    }
+      .circle {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #007bff;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 10px auto;
+      }
+      .btn-custom-1 {
+        background-color: #6c757d; /* Gris */
+        border-color: #6c757d;
+        color: white;
+        padding: 10px 20px; /* Ajuster la taille du bouton */
+        border-radius: 5px; /* Coins arrondis */
+        font-size: 16px; /* Taille de la police */
+        text-decoration: none; /* Supprimer la soulignement du lien si nécessaire */
+        display: inline-block; /* Afficher comme un bloc pour appliquer les propriétés de taille et de forme */
+        text-align: center; /* Centrer le texte à l'intérieur du bouton */
+        border-radius: 20px;
+        border: 2px solid transparent; /* Bordure transparente de 2 pixels */
+    }
+    
+    .btn-custom-1:hover {
+        background-color: #495057; /* Couleur de survol */
+        border-color: #495057;
+        color: white; /* Couleur du texte au survol */
+    }
+      .circle-1 {
+          background-color: #17a2b8; /* Bleu clair */
+      }
+      .circle-2 {
+          background-color: #6f42c1; /* Violet */
+      }
+      .circle-3 {
+          background-color: #fd7e14; /* Orange */
+      }
+      .table-custom-1 {
+          background-color: #f8d7da; /* Rouge clair */
+          border-radius: 20px;
+          border: 2px solid transparent; /* Bordure transparente de 2 pixels */
+      }
+      .table-custom-2 {
+           background-color: #d4edda; /* Vert clair */
+           border-radius: 20px;
+           border: 2px solid transparent; /* Bordure transparente de 2 pixels */
+      }
+      .table-custom-3 {
+          background-color: #cce5ff; /* Bleu clair */
+          border-radius: 20px;
+          border: 2px solid transparent; /* Bordure transparente de 2 pixels */
+      }
+      .table-custom-4 {
+          background-color: #fff3cd; /* Jaune clair */
+          border-radius: 20px;
+          border: 2px solid transparent; /* Bordure transparente de 2 pixels */
+      }
+
+      canvas {
+          width: 200px;  /* largeur */
+          height: 30px; /* hauteur */
+      }
+      .text-center-gris-fonce {
+        color: #5e5555; /* Couleur grise */
+        font-weight: bold;
+        font-size: 30px;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        font-family: Arial, sans-serif;
+      }   
+

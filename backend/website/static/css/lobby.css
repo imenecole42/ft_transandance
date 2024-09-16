@@ -1,0 +1,55 @@
+                 /* Reinitialisation des styles */
+                 * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }     
+                .button2:hover,.button3:hover {
+                    background: #4eb48d; /* Couleur de fond au survol */
+                }
+
+
+                        /* Votre CSS personnalisé */
+                        .button2, .button3 {
+                            background-color: #186145; /* Couleur de fond */
+                            background-image: -webkit-linear-gradient(top, #4eb48d 0%, #012b0f 100%);
+                            background-image: linear-gradient(to bottom, #4eb48d 0%, #012b0f 100%);
+                            color: #fff; /* Couleur du texte */
+                            border: none;
+                            font-family: arial; /* Police d'écriture */
+                            text-decoration: none;
+                            text-align: center;
+                            font-size: 20px;
+                            font-weight: bold; /* Rend le texte en gras */
+                            width: 50%; /* Largeur relative pour responsivité */
+                            max-width: 150px; /* Largeur maximale */
+                            height: 150px; /* Hauteur automatique */
+                            max-height: 500px; /* Hauteur maximale */
+                            margin: 10px auto; /* Centrage horizontal automatique */
+                            display: flex; /* Utilisation de flexbox */
+                            justify-content: center; /* Centre horizontalement */
+                            align-items: center; /* Centre verticalement */
+                        }
+                        
+        
+ 
+            .container{
+                background-color: rgba(110, 111, 116, 0.5); /* Fond semi-transparent */
+                position: relative; /* Positionnement relatif */
+                width: 100%; /* Largeur à 100% pour l'adaptation responsive */
+                max-width: 800px; /* Largeur maximale */
+                color: #5e5555;
+                padding: 20px;
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
+                max-height: calc(100vh - 200px); /* Ajuste la hauteur du contenu pour tenir compte de la barre de navigation et du footer */
+                font-weight: bold;
+                font-size: 30px;
+                font-family: Arial, sans-serif;
+                min-height: 350px; /* Hauteur minimale pour le conteneur */
+                min-width: 500px;
+                margin-top: 300px; /* Espace en haut pour décaler vers le bas */
+
+
+            }

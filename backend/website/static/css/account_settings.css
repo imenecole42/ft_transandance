@@ -1,0 +1,125 @@
+/**********************style a rajouter****************/
+/* Conteneur principal */
+.container.mt-5 {
+  margin-top: -10px; /* Ajoute de la marge en haut pour descendre le conteneur */
+  width: 40%;
+  height: auto;
+  background-color: rgba(110, 111, 116, 0.5); /* Fond semi-transparent */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .container.mt-5 {
+      width: 80%; /* Augmente la largeur pour les écrans plus petits */
+      overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
+      max-height: calc(100vh - 200px); /* Ajuste la hauteur du contenu pour tenir compte de la barre de navigation et du footer */
+  }
+}
+
+@media (max-width: 576px) {
+  .container.mt-5 {
+    overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
+    max-height: calc(100vh - 200px); /* Ajuste la hauteur du contenu pour tenir compte de la barre de navigation et du footer */
+      width: 90%; /* Augmente encore la largeur pour les très petits écrans */
+  }
+}
+
+/* Centre le texte du titre */
+.text-center {
+  text-align: center;
+  font-size: 1.5rem; /* Taille du texte augmentée */
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #5e5555;
+
+}
+.lien {
+  font-family: Arial, sans-serif;
+  color: #5e5555;
+
+}
+/* Style pour les labels et les champs de saisie */
+.form-group label {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #5e5555;
+}
+
+.form-group input {
+  text-align: center;
+}
+
+/* Style pour le bouton */
+
+
+.button {
+  background-color: #186145; /* Couleur de fond */
+  background-image: -webkit-linear-gradient(top, #4eb48d 0%, #012b0f 100%);
+  background-image: linear-gradient(to bottom, #4eb48d 0%, #012b0f 100%);
+  display: inline-block; /* Assurez-vous que les boutons ne prennent pas toute la largeur */
+  margin: 5px; /* Espacement entre les boutons */
+  font-family: arial; /* Police d'écriture */
+  text-decoration: none;
+  padding: 10px 20px; /* Padding ajusté pour correspondre à votre style initial */
+  border-radius: 60px; /* Coins arrondis comme dans votre style initial */
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold; /* Rend le texte en gras */
+  color: #fff;
+  width: 300px;
+}
+.button1 {
+  background-color: #f8bae8; /* Couleur de fond */
+  background-image: -webkit-linear-gradient(top, #f8bae8 0%, #c905af 100%);
+  background-image: linear-gradient(to bottom, #f8bae8 0%, #c905af 100%);
+  display: inline-block; /* Assurez-vous que les boutons ne prennent pas toute la largeur */
+  margin: 5px; /* Espacement entre les boutons */
+  font-family: arial; /* Police d'écriture */
+  text-decoration: none;
+  padding: 10px 20px; /* Padding ajusté pour correspondre à votre style initial */
+  border-radius: 60px; /* Coins arrondis comme dans votre style initial */
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold; /* Rend le texte en gras */
+  color: #fff;
+  width: 200px;
+}
+/* Message d'erreur */
+.alert-danger {
+  font-size: 14px; /* Taille de la police pour le message d'erreur */
+  color: #a94442; /* Couleur de la police pour le message d'erreur */
+  background-color: #f2dede; /* Couleur de fond pour le message d'erreur */
+  border-color: #ebccd1; /* Couleur de la bordure pour le message d'erreur */
+  padding: 10px;
+  border-radius: 4px;
+}
+.avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.lobby-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  }
+.lobby-avatar img{
+      width: 100%;
+      height: auto;
+  }
+/****************************style a rajouter hinda*************/
